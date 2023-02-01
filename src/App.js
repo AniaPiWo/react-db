@@ -5,6 +5,7 @@ import { Header2 } from "./Header.js";
 import { Header3 } from "./Header.js";
 import { Header5 } from "./Header.js";
 import { Alert } from "./Alert/Alert.js";
+import { Button } from "./Button/Button.js";
 
 //-----------------------------------------------------------------//
 ///sposob 2 -> zmienna przechowujaca style
@@ -17,6 +18,7 @@ function App() {
   return (
     <div className="App">
       <Alert text={"Hello!"} />
+      <Button text={"Click Me!"} />
       <Header5 isShadowed={true} value={"Nagłowek 6  - style z module"} />
       <Header3
         isOutlined //alternatywny zapis, nie musi byc {true}

@@ -1,0 +1,15 @@
+.button {
+  width: 100px;
+  height: 60px;
+  background-color: darkslategrey;
+}
+
+.header-style3 {
+  border: 5px solid pink;
+}
+
+/* COMPOSES jesli ma klase tex, to odziedziczy wszytskie style z klasy header-style3 */
+.text {
+  composes: header-style3;
+  color: white;
+}
