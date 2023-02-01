@@ -1,0 +1,16 @@
+.header-style2 {
+  color: white;
+  background-color: blue;
+}
+
+.header-style2.marked {
+  color: lime;
+}
+
+.header-style2.outlined {
+  border: 5px solid black;
+}
+
+.header-style2.shadowed {
+  box-shadow: 15px 10px 0 rgba(0, 0, 0, 0.2);
+}
