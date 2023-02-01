@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import "./Header.css";
-import clsx from "clsx";
+import React from "react";
 import css from "./Header.module.css";
 
 const headerStyle = {

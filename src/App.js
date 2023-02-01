@@ -1,10 +1,12 @@
 import "./App.css";
-import clsx from "clsx";
+import React from "react";
 import { Header } from "./Header.js";
 import { Header2 } from "./Header.js";
 import { Header3 } from "./Header.js";
 import { Header5 } from "./Header.js";
 import { Alert } from "./Alert/Alert.js";
+import { Alert2 } from "./Alert/Alert.js";
+import { Alert3 } from "./Alert/Alert.js";
 import { Button } from "./Button/Button.js";
 
 //-----------------------------------------------------------------//
@@ -17,6 +19,8 @@ const headerStyle = {
 function App() {
   return (
     <div className="App">
+      <Alert3 text={"StyledContainer"} />
+      <Alert2 text={"StyledContainer"} />
       <Alert text={"Hello!"} />
       <Button text={"Click Me!"} />
       <Header5 isShadowed={true} value={"Nagłowek 6  - style z module"} />
